@@ -191,9 +191,10 @@ h1{
     animation: cambio 20s infinite alternate linear;
 }
 
-.so{
+.sobremi{
     margin-left: 15%;
     margin-top: 10;
+    font-family:'Courier New', Courier, monospace;
 }
 
 .Pre{
@@ -204,8 +205,8 @@ h1{
 
 .cuadrado {
     margin-top: 10%;
-    width: 600px;
-    height: 100px;
+    width: 1100px;
+    height: 300px;
     background: #4b27625b;
     border-radius: 50px;
     transition: all 0.5s ease-in-out; 
@@ -215,36 +216,19 @@ h1{
     position: static;
     }
     
-    .cuadrado:hover{
-      width: 1100px;
-      height: 300px;
-      margin-top: 10%;
-      background: #4b27625b;
-      border-radius: 50px;
-      transition: all 0.5s ease-in-out; 
-      font-size: 30px;
-      text-align: justify;
-      position: static;
-      
-    }
+ 
 
- .hola{
+.hola{
         width: 150%;
         height: 200%;
-        opacity: 0;
-        transition: all 0.5s ease-in-out; 
-       
-      }
-      
-      .cuadrado:hover .hola {
-        opacity: 1; /* Visible al hacer hover */
-        margin-left: 0%;
-      }
+ }
 
 .moti{
     font-size: 25px;
     display: flex;
     margin-left: 10%;
+    color: #4b27625b;
+    
 }
 
 .mo{
@@ -277,14 +261,149 @@ summary{
     border-radius: 60%;
 }
 
+.glicheo{
+    color: rgba(47, 39, 78, 0.83);
+    font-family: Verdana;
+    font-size: 20px;
+}
+
+.glichea{
+    color: rgba(80, 53, 39, 0.83);
+    font-family: Verdana;
+    font-size: 20px;
+}
+
+.glichee{
+    color: rgba(54, 50, 70, 0.83);
+    font-family: Verdana;
+    font-size: 20px;
+}
+
 .page_3 {
     background-color: rgba(100, 103, 137, 0.87);
-    animation: cambio 20s infinite alternate linear;}
+    animation: cambio 20s infinite alternate linear;
+}
 
+h2{
+    text-align: center;
+    color: rgba(1, 2, 17, 0.829);
+    font-size: 35px;
+    margin-top: -45%;
+    margin-left: 7%;
+}
+
+
+.container-card{
+	width: 100%;
+	display: flex;
+	max-width: 1100px;
+	margin: auto;
+}
+.title-cards{
+	width: 100%;
+	max-width: 1080px;
+	margin: auto;
+	padding: 20px;
+	margin-top: 20px;
+	text-align: center;
+	color: #000000;
+}
+.card{
+	width: 100%;
+	margin: 20px;
+	border-radius: 6px;
+	overflow: hidden;
+	background: #2e2a30d0;
+	box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+	transition: all 400ms ease-out;
+	cursor: default;
+}
+.card:hover{
+	box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
+	transform: translateY(-3%);
+}
+.card img{
+	width: 100%;
+	height: 210px;
+}
+.card .contenido-card{
+	padding: 15px;
+	text-align: center;
+}
+.card .contenido-card h3{
+	margin-bottom: 15px;
+	color: #776f88;
+}
+.card .contenido-card p{
+	line-height: 1.8;
+	color: #b7adbde3;
+	font-size: 14px;
+	margin-bottom: 5px;
+}
+
+.card .contenido-card a{
+	display: inline-block;
+	padding: 10px;
+	margin-top: 10px;
+	text-decoration: none;
+	color: #982fcc;
+	border: 1px solid #982fcc;
+	border-radius: 4px;
+	transition: all 400ms ease;
+	margin-bottom: 5px;
+}
+.card .contenido-card a:hover{
+	background: #3b1a3c;
+	color: #fff;
+}
+
+@media only screen and (min-width:320px) and (max-width:768px){
+	.container-card{
+		flex-wrap: wrap;
+	}
+	.card{
+		margin: 15px;
+	}
+}
 .page_4 {
     background-color: rgba(100, 103, 137, 0.87);
     animation: cambio 20s infinite alternate linear;
-}.page_5 {
+}
+
+.collage {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columnas iguales */
+    gap: 10px; /* Espacio entre las imágenes */
+ }
+ 
+ .collage img {
+    width: 100%;
+    height: auto;
+ }
+
+ .collage {
+    display: flex;
+    flex-wrap: wrap; /* Las imágenes se ajustarán automáticamente */
+    gap: 10px;
+    justify-content: center;
+ }
+ 
+ .collage img {
+    width: 20%; /* Cada imagen ocupará el 30% del contenedor */
+ }
+
+ .collage img:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s;
+}
+.collage img {
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+}
+.pro{
+    margin-top: -1%;
+    color: red;
+}
+.page_5 {
     background-color: rgba(100, 103, 137, 0.87);
     animation: cambio 20s infinite alternate linear;
 }.page_6 {
