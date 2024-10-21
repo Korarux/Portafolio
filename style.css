@@ -82,6 +82,7 @@ nav{
     overflow: hidden;
     transition: width 0.2s linear;
     box-shadow: 0 20px 35px rgba(0,0,0,0.1);
+    z-index: 1;
 }
 
 .logo{
@@ -401,12 +402,115 @@ h2{
 }
 .pro{
     margin-top: -1%;
-    color: red;
+    color: rgba(1, 2, 17, 0.829);
+    margin-left: 3%;
+    font-size: 35px;
 }
+
+.gata{
+    margin-left: -3%;
+    margin-top: -3%;
+}
+
+.cad {
+    position: relative;
+    width: 300px;
+    height: 250px;
+    margin: 20px;
+    align-items: center;
+}
+  
+  .cad .face {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: .5s;
+}
+  
+  .cad .front {
+    box-shadow: 0 5px 10px rgb(20, 2, 36);
+}
+  
+  .cad .front {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  
+}
+  
+  .cad .front img {
+   position: absolute;
+   width: 100%;
+   height: 100%;
+   object-fit: cover ;  
+}
+
+  .cad .front a {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover ;
+}
+
+  .cad .front h3{
+   position: absolute; bottom: 0;
+   width: 100%;
+   height: 45px;
+   line-height: 45px;
+   color: #fff;
+   background: rgba(0,0,0,.4); 
+   text-align: center;
+}
+
 .page_5 {
     background-color: rgba(100, 103, 137, 0.87);
     animation: cambio 20s infinite alternate linear;
-}.page_6 {
+}
+
+.skills-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.skill {
+    margin-bottom: 20px;
+}
+
+.skill p {
+    margin: 0 0 10px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+}
+
+.skill-bar {
+    width: 100%;
+    background-color: #e0e0e0;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.progress {
+    height: 20px;
+    background-color: #4caf50;
+    border-radius: 8px;
+    transition: width 0.5s ease-in-out;
+}
+
+.page_6 {
     background-color: rgba(100, 103, 137, 0.87);
     animation: cambio 20s infinite alternate linear;
 }.page_7 {
