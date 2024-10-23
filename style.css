@@ -10,6 +10,10 @@
     text-decoration: none;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     max-width: 1420px;
     margin:0 auto;
@@ -24,10 +28,10 @@ body{
     position: absolute;
     width: 40px;
     height: 40px;
-    color: rgb(224, 147, 216);
+    color: rgb(224, 169, 147);
     font-size: 30px;
     font-weight: bold;
-    text-shadow: 0 0 15px rgb(202, 45, 173), 0 0 20px rgb(166, 104, 165);
+    text-shadow: 0 0 15px rgb(202, 63, 45), 0 0 20px rgb(166, 104, 165);
     pointer-events: none; 
 }
 
@@ -55,11 +59,13 @@ body{
     justify-content: center;
     align-items: center;
     color: rgba(0,0,0,0.18);
+    scroll-behavior: smooth;
 }
 
 .page_1 {
     background-color: rgba(100, 103, 137, 0.87);
     animation: cambio 20s infinite alternate linear;
+    scroll-behavior: smooth;
 }
 
 .scroll {
@@ -190,6 +196,7 @@ h1{
 .page_2 {
     background-color: rgba(100, 103, 137, 0.87);
     animation: cambio 20s infinite alternate linear;
+    scroll-behavior: smooth;
 }
 
 .sobremi{
@@ -283,6 +290,7 @@ summary{
 .page_3 {
     background-color: rgba(100, 103, 137, 0.87);
     animation: cambio 20s infinite alternate linear;
+    scroll-behavior: smooth;
 }
 
 h2{
@@ -469,51 +477,129 @@ h2{
 .page_5 {
     background-color: rgba(100, 103, 137, 0.87);
     animation: cambio 20s infinite alternate linear;
+    scroll-behavior: smooth;
 }
+
 
 .skills-container {
     max-width: 600px;
     margin: 0 auto;
     padding: 20px;
-    background-color: #fff;
+    background-color:  rgba(36, 30, 43, 0.774);
+    border-radius: 8px;
+    display:grid;
+    margin-top: -20%;
+    
+}
+
+.skills-containera {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color:  rgba(36, 30, 43, 0.774);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
+    display:grid;
+    margin-top: 35%;
+    margin-left: -16%;
+    
+}
+
+.skills-containero {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color:  rgba(36, 30, 43, 0.774);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    display:grid;
+    margin-top: -20%;
+    margin-left: 10%;
+    
+}
+
+.skills-containeru {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color:  rgba(36, 30, 43, 0.774);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    display:grid;
+    margin-top: -20%;
+    margin-left: -20%;
+    
 }
 
 h2 {
     margin-bottom: 20px;
-    color: #333;
+    color: #3e2964;
 }
 
 .skill {
     margin-bottom: 20px;
+    
 }
 
 .skill p {
     margin: 0 0 10px;
     font-size: 16px;
     font-weight: bold;
-    color: #333;
+    color: #ccc8db;
 }
 
 .skill-bar {
     width: 100%;
-    background-color: #e0e0e0;
+    background-color: rgb(78, 66, 58);
     border-radius: 8px;
     overflow: hidden;
 }
 
 .progress {
     height: 20px;
-    background-color: #4caf50;
+    background-color: rgb(175, 144, 76);
     border-radius: 8px;
     transition: width 0.5s ease-in-out;
 }
+ 
 
 .page_6 {
     background-color: rgba(100, 103, 137, 0.87);
     animation: cambio 20s infinite alternate linear;
-}.page_7 {
-    background-color: rgba(100, 103, 137, 0.87);
-    animation: cambio 20s infinite alternate linear;
 }
+
+.cuadronegroo {
+    background-color: rgb(77, 81, 117);
+    padding: 20px; 
+    border-radius: 10px; 
+    width: fit-content; 
+    margin: 20px auto; 
+    box-shadow: 0px 6px 19px rgba(0, 0, 0, 0.918);
+    height: 70%;
+    width: 80%;
+    margin-left: 15%;
+}
+
+.ultimo{
+    color: #8b90a0;
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+    font-size: 20px;
+    font-style: italic;
+    list-style: none;
+    text-align: justify;
+    margin-left: 32%;
+}
+
+.ultimo img{
+    height: 40px;
+    width: 40px;
+    gap: 10px;
+}
+
+.final{
+    margin-top: 10%;
+    text-align: center;
+    font-style: italic;
+    font-size: 17px;
+}
+
