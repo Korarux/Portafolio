@@ -28,7 +28,7 @@ body{
     position: absolute;
     width: 40px;
     height: 40px;
-    color: rgb(224, 169, 147);
+    color: #BF0449;
     font-size: 30px;
     font-weight: bold;
     text-shadow: 0 0 15px rgb(202, 63, 45), 0 0 20px rgb(166, 104, 165);
@@ -173,7 +173,7 @@ h1{
 .SMR { 
 	position: relative; 
 	background: rgb(50, 52, 75);
-	color: #a08b9f;
+	color: rgb(206, 71, 121);
 	font-size: 30px;
     font-family:'Courier New', Courier, monospace;
     font-weight: lighter;
@@ -298,7 +298,7 @@ h2{
     color: rgba(1, 2, 17, 0.829);
     font-size: 35px;
     margin-top: -45%;
-    margin-left: 7%;
+    margin-left: 8%;
 }
 
 
@@ -411,7 +411,7 @@ h2{
 .pro{
     margin-top: -1%;
     color: rgba(1, 2, 17, 0.829);
-    margin-left: 3%;
+    margin-left: 6%;
     font-size: 35px;
 }
 
@@ -555,13 +555,203 @@ h2 {
     overflow: hidden;
 }
 
-.progress {
+.Vprogress {
     height: 20px;
-    background-color: rgb(175, 144, 76);
+    background-color: #4caf50;
     border-radius: 8px;
     transition: width 0.5s ease-in-out;
+    animation: Vgrow 2s ease-out forwards; 
 }
- 
+
+
+@keyframes Vgrow {
+    from {
+        width: 0;
+    }
+    to {
+        width: 56%; 
+    }
+}
+
+.Mprogress {
+    height: 20px;
+    background-color: #4caf50;
+    border-radius: 8px;
+    transition: width 0.5s ease-in-out;
+    animation: Mgrow 2s ease-out forwards; 
+}
+
+
+@keyframes Mgrow {
+    from {
+        width: 0;
+    }
+    to {
+        width: 75%; 
+    }
+}
+
+.Lprogress {
+    height: 20px;
+    background-color: #4caf50;
+    border-radius: 8px;
+    transition: width 0.5s ease-in-out;
+    animation: Lgrow 2s ease-out forwards; 
+}
+
+
+@keyframes Lgrow {
+    from {
+        width: 0;
+    }
+    to {
+        width: 85%; 
+    }
+}
+
+.Wprogress {
+    height: 20px;
+    background-color: #4caf50;
+    border-radius: 8px;
+    transition: width 0.5s ease-in-out;
+    animation: Wgrow 2s ease-out forwards; 
+}
+
+
+@keyframes Wgrow {
+    from {
+        width: 0;
+    }
+    to {
+        width: 50%; 
+    }
+}
+
+.Hprogress {
+    height: 20px;
+    background-color: #4caf50;
+    border-radius: 8px;
+    transition: width 0.5s ease-in-out;
+    animation: Hgrow 2s ease-out forwards; 
+}
+
+
+@keyframes Hgrow {
+    from {
+        width: 0;
+    }
+    to {
+        width: 50%; 
+    }
+}
+
+.Jprogress {
+    height: 20px;
+    background-color: #4caf50;
+    border-radius: 8px;
+    transition: width 0.5s ease-in-out;
+    animation: Jgrow 2s ease-out forwards; 
+}
+
+
+@keyframes Jgrow {
+    from {
+        width: 0;
+    }
+    to {
+        width: 20%; 
+    }
+}
+
+.Bprogress {
+    height: 20px;
+    background-color: #4caf50;
+    border-radius: 8px;
+    transition: width 0.5s ease-in-out;
+    animation: Bgrow 2s ease-out forwards; 
+}
+
+
+@keyframes Bgrow {
+    from {
+        width: 0;
+    }
+    to {
+        width: 75%; 
+    }
+}
+
+.Oprogress {
+    height: 20px;
+    background-color: #4caf50;
+    border-radius: 8px;
+    transition: width 0.5s ease-in-out;
+    animation: Ogrow 2s ease-out forwards; 
+}
+
+
+@keyframes Ogrow {
+    from {
+        width: 0;
+    }
+    to {
+        width: 75%; 
+    }
+}
+
+.Nprogress {
+    height: 20px;
+    background-color: #4caf50;
+    border-radius: 8px;
+    transition: width 0.5s ease-in-out;
+    animation: Ngrow 2s ease-out forwards; 
+}
+
+
+@keyframes Ngrow {
+    from {
+        width: 0;
+    }
+    to {
+        width: 80%; 
+    }
+}
+
+.Dprogress {
+    height: 20px;
+    background-color: #4caf50;
+    border-radius: 8px;
+    transition: width 0.5s ease-in-out;
+    animation: Dgrow 2s ease-out forwards; 
+}
+
+
+@keyframes Dgrow {
+    from {
+        width: 0;
+    }
+    to {
+        width: 70%; 
+    }
+}
+
+.Iprogress {
+    height: 20px;
+    background-color: #4caf50;
+    border-radius: 8px;
+    transition: width 0.5s ease-in-out;
+    animation: Igrow 2s ease-out forwards; 
+}
+
+
+@keyframes Igrow {
+    from {
+        width: 0;
+    }
+    to {
+        width: 85%; 
+    }
+}
 
 .page_6 {
     background-color: rgba(100, 103, 137, 0.87);
